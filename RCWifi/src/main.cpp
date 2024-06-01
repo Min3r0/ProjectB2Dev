@@ -82,11 +82,6 @@ void loop()
     }else {
         servoMotor.turn(90);
     }
-    
-
-
-
-
 }
 
 void erreurconnection()
