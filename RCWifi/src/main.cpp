@@ -26,6 +26,7 @@ void setup()
     {
     case 0:
         connectionWifi();
+        green_led.turnOn();
         break;
     case 1:
         createWifi();
@@ -82,6 +83,11 @@ void loop()
     }else {
         servoMotor.turn(90);
     }
+    
+
+
+
+
 }
 
 void erreurconnection()
